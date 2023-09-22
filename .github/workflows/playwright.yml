@@ -1,4 +1,4 @@
-name: Reusable Workflow Trigger
+name: workflow input triggers
 
 on:
   workflow_dispatch:
@@ -20,7 +20,7 @@ on:
         default: true # Enable artifact upload by default
 
 jobs:
-  run-reusable-workflow:
+  run-workflow-triggers:
     runs-on: ubuntu-latest
     
     steps:
